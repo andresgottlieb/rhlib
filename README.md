@@ -9,7 +9,7 @@ Download all videos from the Radiohead Public Library
 ## Dependencies
 1. [curl](https://curl.haxx.se/download.html) (probably already present in your system)
 2. [jq](https://stedolan.github.io/jq/download/) (probably already present in your system)
-3. [youtube-dl](https://youtube-dl.org/)
+3. [youtube-dl](https://youtube-dl.org/) (make sure you have the latest version, running ```youtube-dl -U```)
 
 ## Installation
 1. Install the dependencies above
@@ -27,6 +27,3 @@ Run ```get.sh```, and then ```process.sh```:
    
 ## Results
 The videos will be downloaded to the ```./video/``` folder
-
-## Known issues
-1. Some Youtube videos are not being downloaded by ```youtube-dl```, as discussed in [this issue](https://github.com/ytdl-org/youtube-dl/issues/23819)
