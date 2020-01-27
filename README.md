@@ -1,5 +1,8 @@
 # rhlib
-Download all videos from the Radiohead Public Library
+Radiohead Public Library Experiments
+
+---
+## Experiment 1: Download all videos
 
 ## Works on
 1. Mac OS ✓
@@ -27,3 +30,8 @@ Run ```get.sh```, and then ```process.sh```:
    
 ## Results
 The videos will be downloaded to the ```./video/``` folder
+
+---
+
+## Experiment 2: Browse all concerts on a map
+[https://www.rhlib.com](https://www.rhlib.com)

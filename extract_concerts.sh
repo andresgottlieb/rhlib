@@ -1,0 +1,1 @@
+jq -s '{ video: map(.video[0]) } | flatten' ./json/*.json | jq '.[] | select(.loc != null)' | jq -s . > ./map/concerts.json
