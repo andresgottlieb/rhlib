@@ -27,9 +27,15 @@ Radiohead Public Library Experiments
 Run ```get.sh```, and then ```process.sh```:
 1. ```./get.sh``` (gets video info. from the Radiohead site)
 2. ```./process.sh``` (downloads the videos from Vimeo and Youtube)
-   
+
+You may provide a directory name as positional argument, e.g. ```./get.sh ~/Downloads``` and
+```./process.sh ~/Downloads```. Make sure that the directory provided to ```process.sh``` contains a
+```json/``` subdirectory with the files previously downloaded by ```get.sh```. If you do not provide
+a directory name, both scripts will use the current working directory.
+
 ## Results
-The videos will be downloaded to the ```./video/``` folder
+The videos will be downloaded to the ```./video/``` subdirectory in either the directory given by you
+or the current working directory.
 
 ---
 
